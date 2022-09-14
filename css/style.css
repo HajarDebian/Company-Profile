@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mali', cursive;
+}
+.main{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+nav{
+    width: 600px;
+    height: 80px;
+    overflow: hidden;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+}
+nav ul{ 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    color: gray;
+    font-size: 25px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+}
+.two{
+    position: absolute;
+    left: 500px;
+}
+.three{
+    position: absolute;
+    left: 650px;
+}
+.four{
+    position: absolute;
+    left: 800px;
+}
+ul li:hover{
+    background: rgba(219, 91, 91, 0.562);
+    color: black;
+}
+.buts{
+    position: absolute;
+    left: 72%;
+    top: 45px;
+}
+.mar{
+    margin-right: 20px;
+}
+button{
+    color: white;
+    border: 1px solid gray;
+    background-color: rgb(219, 91, 91);
+    font-size: 18px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(219, 91, 91);
+    background-color: white;
+}
+.watermark{
+    color: black;
+    font-size: 7px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 7px;
+}
+header{
+    background-image: url(../images/irene-davila-9Y5Wk7favpE-unsplash.jpg);
+    height: 700px;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.315);
+    font-size: 18px;
+    color: white;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    position: absolute;
+    top: 78.6%;
+    left: 330px;
+}
+h1 , h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.separator{
+    width: 100%;
+    height: 30px;
+}
+.about{
+    background-color: rgb(230, 228, 228);
+    height: 800px;
+    overflow: hidden;
+}
+.aboutimg{
+    height: 50%;
+    width: 50%;
+    position: relative;
+    top: 30px;
+
+}
+.aboutimg img{
+    width: 100%;
+    height: 100%;
+}
+.aboutcontent{
+    width: 70%;
+    position: relative;
+    top: -100px;
+    right: -29%;
+    z-index: 99999;
+    background-color: white;
+    font-size: 18px;
+    padding: 50px;
+    box-shadow: -3px 3px rgba(128, 128, 128, 0.582);
+}
+.why{
+    height: 800px;
+    background-image: url(../images/manik-rathee-a8YV2C3yBMk-unsplash.jpg);
+    background-color: rgba(255, 255, 255, 0.267);
+    background-blend-mode: lighten;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+
+}
+.left{
+    width: 40%;
+    text-align: center;
+    position: relative;
+    top: 47%;
+}  
+h3{
+    font-size: 30px;
+} 
+.right{
+    width: 60%;
+    padding: 30px;
+    position: relative;
+    top: 10%;
+    left: 35%;
+}
+.rightcontent{
+    font-size: 30px;
+}
+.read{
+    margin-top: 100px;
+    font-size: 15px;
+    position: relative;
+    right: -70%;
+}
+.team{
+    height: 300px;
+    overflow: hidden;
+}
+.member{
+    height: 80%;
+    text-align: center;
+}
+.member img{
+    width: 200px;
+    height: 200px;
+}
+.member p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.mem1{
+    position: relative;
+    left: -440px;
+}
+.mem2{
+    position: relative;
+    top: -234px;
+    left: -150px;
+}
+.mem3{
+    position: relative;
+    top: -468px;
+    left: 140px;;
+}
+.mem4{
+    position: relative;
+    top: -702px;
+    left: 430px;;
+}
+.title{
+    padding-block: 10px;
+    text-align: center;
+    position: relative;
+    top: -700px;
+}
+.title h4{
+    font-size: 40px;
+}
